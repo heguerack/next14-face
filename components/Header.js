@@ -1,10 +1,10 @@
-'use client'
+import HeaderWrap from './HeaderWrap'
 import Navbar from './Navbar'
 
 export default function Header() {
   return (
-    <div>
+    <HeaderWrap>
       <Navbar />
-    </div>
+    </HeaderWrap>
   )
 }
