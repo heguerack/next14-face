@@ -9,7 +9,7 @@ export default function HeaderWrap({ children }) {
 
   return (
     <div className=' bg-blue-100 '>
-      <div className='flex items-center justify-between p-4 '>
+      <div className='flex items-center justify-between p-4 px-4'>
         <div className='relative w-[3rem] h-[3rem] '>
           <Image
             src='/images/face-and-body-wellness-center-logo.jpg'
@@ -19,17 +19,17 @@ export default function HeaderWrap({ children }) {
           />
         </div>
         <PhoneCall className='h-8 w-8' />
-        {showNavbar && (
+        {!showNavbar && (
           <MenuIcon
             className='h-8 w-8'
             onClick={() => setShowNavbar(!showNavbar)}
           />
         )}
-        {!showNavbar && (
+        {showNavbar && (
           <X className='h-8 w-8' onClick={() => setShowNavbar(!showNavbar)} />
         )}
       </div>
-      {!showNavbar && children}
+      {showNavbar && children}
     </div>
   )
 }
