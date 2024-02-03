@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import HomeShowcase from '@/components/HomeShowcase'
 
 export default function HomePage() {
   return (
-    <div className='w-full h-screen flex items-center justify-center'>
-      <h1 className='text-4xl'> Home</h1>
-    </div>
+    <>
+      <HomeShowcase />
+      <div>component</div>
+    </>
   )
 }
