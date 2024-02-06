@@ -43,7 +43,7 @@ export default function BookingSidebarItem({ navCompInfo }) {
           </li>
           {navCompInfo.categoryServices.map((service) => (
             <ListItem
-              // key={service.title}
+              key={service.title}
               title={service.title}
               href={service.href}>
               {service.description}
