@@ -6,23 +6,21 @@ export const tatooRemovalNavInfo = {
   categoryServices: [
     {
       title: 'Microneedling 2',
-      href: '/docs/primitives/alert-dialog',
+      href: '/',
       cost: '$',
       time: '',
       img: '',
       alt: '',
-      description:
-        'A modal dialog that interrupts the user with important content and expects a response.',
+      description: 'Aqui va contenido',
     },
     {
       title: 'subservice',
-      href: '/docs/primitives/alert-dialog',
+      href: '/',
       cost: '$',
       time: '',
       img: '',
       alt: '',
-      description:
-        'A modal dialog that interrupts the user with important content and expects a response.',
+      description: 'Aqui va contenido',
     },
   ],
 }

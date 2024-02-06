@@ -24,7 +24,7 @@ export default function ListItem({
     // <li className={`p-4 ${showContent ? 'mb-12' : ''}`}>
     <li className={`p-4 mb-4`}>
       {showContent && (
-        <div className='text-base flex items-center gap-4 mb-4'>
+        <div className='text-sm flex items-center gap-4 mb-4'>
           <NavigationMenuLink className=''>
             <Button variant='secondary' size='sm'>
               <Link
@@ -39,8 +39,8 @@ export default function ListItem({
             </Button>
           </NavigationMenuLink>
           <div className=''>{`${cost}`}</div>
-          <div className=' flex items-center'>
-            <TimerIcon className='h-4 w- mr-1' />
+          <div className=' flex items-center '>
+            <TimerIcon className='h-4 w- mr-0' />
             {`${time}`}
           </div>
         </div>
@@ -53,7 +53,8 @@ export default function ListItem({
         {children}
       </p>
       <Button
-        className='mr-6'
+        className='mr-6 px-2'
+        size='sm'
         variant='outline'
         onClick={() => {
           setShowContent(!showContent)
@@ -62,7 +63,7 @@ export default function ListItem({
         {showContent ? 'Read Less' : 'Read More'}
       </Button>
       <NavigationMenuLink className=''>
-        <Button variant='outline'>
+        <Button variant='outline' size='sm'>
           <Link
             className={cn(
               'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground',

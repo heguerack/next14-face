@@ -13,7 +13,7 @@ export const massagesNavInfo = {
       img: '',
       alt: '',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt perferendis optio nihil corporis omnis aspernatur accusamus excepturi tenetur voluptatibus?',
+        'Therapeutic massage is a hands-on treatment that manipulates the soft tissues of the body to promote relaxation, relieve muscle tension, and alleviate pain. It incorporates various techniques such as kneading, stroking, and applying pressure to specific areas to address individual needs and enhance overall well-being. Therapeutic massage can help improve circulation, reduce stress, and enhance flexibility.',
     },
     {
       title: 'Prenatal Massage',
@@ -38,7 +38,7 @@ export const massagesNavInfo = {
 
     {
       title: 'Wood Therapy (WOOD THERAPY FULL BODY)',
-      href: '/docs/primitives/alert-dialog',
+      href: '/',
       cost: '$199.00 CAD',
       time: '1 hr',
       img: '',
@@ -48,13 +48,30 @@ export const massagesNavInfo = {
     },
     {
       title: 'subservice',
-      href: '/docs/primitives/alert-dialog',
+      href: '/',
       cost: '$',
       time: '',
       img: '',
       alt: '',
-      description:
-        'A modal dialog that interrupts the user with important content and expects a response.',
+      description: 'Aqui va contenido',
+    },
+    {
+      title: 'subservice',
+      href: '/',
+      cost: '$',
+      time: '',
+      img: '',
+      alt: '',
+      description: 'Aqui va contenido',
+    },
+    {
+      title: 'subservice',
+      href: '/',
+      cost: '$',
+      time: '',
+      img: '',
+      alt: '',
+      description: 'Aqui va contenido',
     },
   ],
 }
