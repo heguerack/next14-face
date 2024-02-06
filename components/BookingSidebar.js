@@ -9,16 +9,13 @@ import {
 } from '@/components/ui/navigation-menu'
 import BookingSidebarItem from './BookingSidebarItem'
 import { useGlogalContext } from '@/lib/Context'
-
-import {
-  FacialsNavInfo,
-  cocoonNavInfo,
-  laserHairRemovalNavInfo,
-  massagesNavInfo,
-  microneedlingNavInfo,
-  tatooRemovalNavInfo,
-  bodySkin,
-} from '@/data/services'
+import { FacialsNavInfo } from '@/data/sevicesData/facials'
+import { massagesNavInfo } from '@/data/sevicesData/massages'
+import { microneedlingNavInfo } from '@/data/sevicesData/microneedling'
+import { laserHairRemovalNavInfo } from '@/data/sevicesData/laserHair'
+import { cocoonNavInfo } from '@/data/sevicesData/cocoon'
+import { tatooRemovalNavInfo } from '@/data/sevicesData/tatoo'
+import { bodySkin } from '@/data/sevicesData/bodySkin'
 
 export function BookingSidebar() {
   const { isBookingSidebarOpen, setIsBookingSidebarOpen } = useGlogalContext()

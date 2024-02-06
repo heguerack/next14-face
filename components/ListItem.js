@@ -22,7 +22,7 @@ export default function ListItem({
 
   return (
     // <li className={`p-4 ${showContent ? 'mb-12' : ''}`}>
-    <li className={`p-4`}>
+    <li className={`p-4 mb-4`}>
       {showContent && (
         <div className='text-base flex items-center gap-4 mb-4'>
           <NavigationMenuLink className=''>
@@ -33,6 +33,7 @@ export default function ListItem({
                   className
                 )}
                 {...props}>
+                {/* <div></div> */}
                 Book Now
               </Link>
             </Button>

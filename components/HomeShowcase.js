@@ -7,7 +7,9 @@ export default function HomeShowcase() {
       <div className=' h-full w-full'>
         <Image
           fill
-          src={'/images/homeshowcaseimg.jpg'}
+          src={
+            '/images/tender-african-woman-relaxing-enjoying-healthy-spa-massage-with-oil.jpg'
+          }
           className='object-cover '
         />
       </div>

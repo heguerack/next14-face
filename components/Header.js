@@ -3,8 +3,6 @@ import { useGlogalContext } from '@/lib/Context'
 import { MenuIcon, PhoneCall, PhoneIcon, X } from 'lucide-react'
 import Image from 'next/image'
 import Navbar from './Navbar'
-import BookingSidebar from './BookingSidebarBackup'
-import { NavigationMenuDemo } from './BookingSidebar'
 
 export default function Header() {
   const { isMenuSidebarOpen, setMenuIsSidebarOpen } = useGlogalContext()
