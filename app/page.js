@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <>
       <HomeShowcase />
-      <div>component</div>
+      <div className='h-[50rem] bg-red-700'>component</div>
     </>
   )
 }

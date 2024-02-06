@@ -7,33 +7,23 @@ import {
   NavigationMenuLink,
   NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu'
+import Link from 'next/link'
 
-export default function NavImageComponent({ navCompInfo }) {
+export default function BookingSidebarItem({ navCompInfo }) {
   return (
-    <NavigationMenuItem>
-      {/* most of the styles seem easier from the ui itself */}
-      <NavigationMenuTrigger className='flex items-center justify-center px-2 '>
-        {/* <div className='relative w-[1.2rem] h-[1.2rem]  '>
-          <Image
-            src={navCompInfo.img}
-            alt={navCompInfo.alt}
-            className='object-cover '
-            fill
-          />
-        </div> */}
+    <NavigationMenuItem className=''>
+      <NavigationMenuTrigger className=' px-2'>
         {navCompInfo.category}
       </NavigationMenuTrigger>
-      <NavigationMenuContent className=' '>
+      {/* <NavigationMenuContent className='absolute w-[100vw] left-0 top-[8rem]'> */}
+      <NavigationMenuContent className='w-[100vw]'>
         <ul>
           <li className=''>
-            <NavigationMenuLink>
-              <div
+            <NavigationMenuLink asChild>
+              <Link
                 className='flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-2 no-underline outline-none focus:shadow-md'
                 href='/'>
                 <div className=''>
-                  {/* <div className=' text-2xl text-center font-medium'>
-                    {navCompInfo.introTitle}
-                  </div> */}
                   <div className='flex items-center gap-2'>
                     <div className='relative w-[10rem] h-[5rem]  '>
                       <Image
@@ -48,17 +38,17 @@ export default function NavImageComponent({ navCompInfo }) {
                     </p>
                   </div>
                 </div>
-              </div>
-              {navCompInfo.categoryServices.map((service) => (
-                <ListItem
-                  key={service.title}
-                  title={service.title}
-                  href={service.href}>
-                  {service.description}
-                </ListItem>
-              ))}
+              </Link>
             </NavigationMenuLink>
           </li>
+          {navCompInfo.categoryServices.map((service) => (
+            <ListItem
+              // key={service.title}
+              title={service.title}
+              href={service.href}>
+              {service.description}
+            </ListItem>
+          ))}
         </ul>
       </NavigationMenuContent>
     </NavigationMenuItem>

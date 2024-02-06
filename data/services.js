@@ -10,7 +10,8 @@ export const FacialsNavInfo = {
       href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=F4NnVNXoQ-s&hl=en-CA&gei=YA69ZcaaHYim0PEP3ZmEgAs&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyEggCEAAYFBiDARiHAhixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIQCAQQABiDARixAxjJAxiABDIGCAUQRRg8MgYIBhAFGEAyBggHEEUYPNIBCDMxMjhqMGo0qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8',
       img: '',
       alt: '',
-      description: 'No description of this treatment yet!.',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, illum iure. Eligendi repudiandae debitis nobis eveniet magni, id omnis maxime autem quis accusantium nisi at, dolorem minus consectetur tempora eius hic velit pariatur explicabo. Adipisci at in aliquid possimus voluptatibus fuga ipsam minima aut eum! In fugit minima dicta culpa omnis autem modi reprehenderit earum. .',
     },
     {
       title: 'Facial consultation',
@@ -122,7 +123,7 @@ export const microneedlingNavInfo = {
 }
 
 export const laserHairRemovalNavInfo = {
-  category: 'Laser hair removal',
+  category: 'Laser Hair Removal',
   // introTitle: 'About Facials',
   introDesc: 'We offer the best facial treaments in twon. brwose below',
   img: '/images/laser-hair-removal.jpg',

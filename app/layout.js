@@ -2,6 +2,9 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import { AppProvider, useGlogalContext } from '@/lib/Context'
+import { BookingSidebar } from '@/components/BookingSidebar'
+// import BookingSidebar from '@/components/BookingSidebar'
+// import { NavigationMenuDemo } from '@/components/BookingSidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +18,9 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <AppProvider>
         <body className={inter.className}>
+          <BookingSidebar />
           <Header />
+
           {children}
         </body>
       </AppProvider>

@@ -17,7 +17,13 @@
 .custom-pulse-animation {
   animation: customPulseAnimation 4s infinite;
 }
+.bookingSidebar {
+  @apply bg-slate-100 h-full  fixed  top-0 left-0 w-full invisible  opacity-0;
+}
 
+.show-bookingSidebar {
+  @apply transition-opacity opacity-100 visible duration-1000 overflow-y-scroll;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -1,17 +1,34 @@
+'use client'
+
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 
 import { NavigationMenuLink } from '@/components/ui/navigation-menu'
 import Link from 'next/link'
+import { useState } from 'react'
 export default function ListItem({ className, title, children, ...props }) {
   // ref
+  const [showContent, setShowContent] = useState(false)
+
   return (
     <li className='p-4'>
-      <div className='text-base font-medium leading-none'>{title}</div>
-      <p className='line-clamp-2  leading-snug text-muted-foreground mb-2'>
+      <div className='text-base font-medium leading-none mb-2'>{title}</div>
+      <p
+        className={`${
+          showContent ? '' : 'line-clamp-1'
+        } leading-snug text-muted-foreground mb-3`}>
         {children}
       </p>
-      <NavigationMenuLink className='bg-red-500'>
+      <Button
+        className='mr-6'
+        variant='outline'
+        onClick={() => {
+          setShowContent(!showContent)
+          // setKey(title)
+        }}>
+        Read more
+      </Button>
+      <NavigationMenuLink className=''>
         <Button variant='outline'>
           <Link
             className={cn(
