@@ -17,6 +17,7 @@ import {
   massagesNavInfo,
   microneedlingNavInfo,
   tatooRemovalNavInfo,
+  bodySkin,
 } from '@/data/services'
 
 export function BookingSidebar() {
@@ -38,13 +39,14 @@ export function BookingSidebar() {
       </div>
 
       <NavigationMenu>
-        <NavigationMenuList className='flex flex-wrap gap-2 py-2'>
+        <NavigationMenuList className='flex flex-wrap gap-4 py-2'>
           <BookingSidebarItem navCompInfo={FacialsNavInfo} />
           <BookingSidebarItem navCompInfo={massagesNavInfo} />
           <BookingSidebarItem navCompInfo={microneedlingNavInfo} />
           <BookingSidebarItem navCompInfo={laserHairRemovalNavInfo} />
           <BookingSidebarItem navCompInfo={cocoonNavInfo} />
           <BookingSidebarItem navCompInfo={tatooRemovalNavInfo} />
+          <BookingSidebarItem navCompInfo={bodySkin} />
         </NavigationMenuList>
       </NavigationMenu>
     </div>

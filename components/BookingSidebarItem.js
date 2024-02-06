@@ -45,7 +45,9 @@ export default function BookingSidebarItem({ navCompInfo }) {
             <ListItem
               key={service.title}
               title={service.title}
-              href={service.href}>
+              href={service.href}
+              cost={service.cost}
+              time={service.time}>
               {service.description}
             </ListItem>
           ))}
