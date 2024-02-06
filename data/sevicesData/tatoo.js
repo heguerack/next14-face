@@ -1,5 +1,5 @@
 export const tatooRemovalNavInfo = {
-  category: 'Tatto Removal',
+  category: 'Tattoo Removal',
   // introTitle: 'About Facials',
   introDesc: 'We offer the best facial treaments in twon. brwose below',
   img: '/images/Tattoo-Removal.jpg',

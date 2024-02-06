@@ -1,8 +1,8 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
+import Header from '@/components/Header/Header'
 import { AppProvider, useGlogalContext } from '@/lib/Context'
-import { BookingSidebar } from '@/components/BookingSidebar'
+import { BookingSidebar } from '@/components/BookingSidebar/BookingSidebar'
 // import BookingSidebar from '@/components/BookingSidebar'
 // import { NavigationMenuDemo } from '@/components/BookingSidebar'
 

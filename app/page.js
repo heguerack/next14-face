@@ -1,10 +1,14 @@
-import HomeShowcase from '@/components/HomeShowcase'
+import HomeReviews from '@/components/HomeComponents/HomeReviews'
+import HomeServices from '@/components/HomeComponents/HomeServices'
+import HomeShowcase from '@/components/HomeComponents/HomeShowcase'
 
 export default function HomePage() {
   return (
     <>
       <HomeShowcase />
-      <div className='h-[50rem] bg-red-700'>component</div>
+      <HomeServices />
+      <HomeReviews />
+      {/* <HomeAllServices />  */}
     </>
   )
 }
