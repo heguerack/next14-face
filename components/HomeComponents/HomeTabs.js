@@ -9,7 +9,7 @@ export default function HomeTabs() {
   const [index, setIndex] = useState(0)
   console.log(index)
   return (
-    <div className={`w-full left-0 max-h-[80vh] overflow-hidden`}>
+    <div className={`w-full left-0`}>
       <div className='bg-red-200 flex flex-wrap justify-center gap-2 py-4'>
         {servicesData.map((item, i) => (
           <Button
@@ -21,7 +21,7 @@ export default function HomeTabs() {
           </Button>
         ))}
       </div>
-      <div className='overflow-y-scroll flex h-full w-full select-none flex-col justify-end rounded-md  p-2 no-underline outline-none focus:shadow-md'>
+      <div className='h-[60vh] overflow-y-scroll flex w-full select-none flex-col justify-end rounded-md  p-2 no-underline outline-none focus:shadow-md'>
         <div className='bg-slate-500 text-white flex items-center gap-2'>
           <div className='relative w-[10rem] h-[5rem]  '>
             <Image
