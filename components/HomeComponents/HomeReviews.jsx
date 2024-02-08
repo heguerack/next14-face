@@ -8,10 +8,12 @@ export default function HomeReviews() {
     rootMargin: '500px',
   })
   return (
-    <div className='placeholder google-iframe-wrapper' ref={observe}>
+    <div
+      className='bg-slate-100 placeholder google-iframe-wrapper'
+      ref={observe}>
       {inView && (
         <div>
-          <p className='text-2xl text-center m-6'>Our Google Reviews!</p>
+          <p className='text-2xl text-center m-6 '>Our Google Reviews!</p>
           <Script src='https://apps.elfsight.com/p/platform.js' />
           <div class='elfsight-app-2e79097a-4bc8-441d-88f2-316095540b86'></div>
         </div>
