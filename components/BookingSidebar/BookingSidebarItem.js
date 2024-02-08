@@ -9,11 +9,11 @@ import {
 } from '@/components/ui/navigation-menu'
 import Link from 'next/link'
 
-export default function BookingSidebarItem({ navCompInfo }) {
+export default function BookingSidebarItem({ category }) {
   return (
     <NavigationMenuItem className=''>
       <NavigationMenuTrigger className=' px-2'>
-        {navCompInfo.category}
+        {category.category}
       </NavigationMenuTrigger>
       {/* <NavigationMenuContent className='absolute w-[100vw] left-0 top-[8rem]'> */}
       <NavigationMenuContent className='w-[100vw]'>
@@ -27,21 +27,21 @@ export default function BookingSidebarItem({ navCompInfo }) {
                   <div className='flex items-center gap-2'>
                     <div className='relative w-[10rem] h-[5rem]  '>
                       <Image
-                        src={navCompInfo.img}
+                        src={category.img}
                         alt=''
                         className='object-cover '
                         fill
                       />
                     </div>
                     <p className='text-lg leading-tight text-muted-foreground'>
-                      {navCompInfo.introDesc}
+                      {category.introDesc}
                     </p>
                   </div>
                 </div>
               </Link>
             </NavigationMenuLink>
           </li>
-          {navCompInfo.categoryServices.map((service) => (
+          {category.categoryServices.map((service) => (
             <ListItem
               key={service.title}
               title={service.title}

@@ -1,8 +1,8 @@
-export const cocoonNavInfo = {
+export const cocoonData = {
   category: 'Cocoon',
-  // introTitle: 'About Facials',
-  introDesc: 'We offer the best facial treaments in twon. brwose below',
+  desc: 'We offer the best facial treaments in twon. brwose below',
   img: '/images/cocoon.jpg',
+  url: '/calgary-cocoon',
   alt: '',
   categoryServices: [
     {

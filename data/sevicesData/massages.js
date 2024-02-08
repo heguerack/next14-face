@@ -1,9 +1,9 @@
-export const massagesNavInfo = {
+export const massagesData = {
   category: 'Massages',
-  // introTitle: 'About Facials',
-  introDesc: 'We offer the best facial treaments in twon. brwose below',
+  desc: 'We offer the best facial treaments in twon. brwose below',
   img: '/images/tender-african-woman-relaxing-enjoying-healthy-spa-massage-with-oil.jpg',
   alt: '',
+  url: '/calgary-massages',
   categoryServices: [
     {
       title: 'THERAPEUTIC MASSAGE',
@@ -18,8 +18,18 @@ export const massagesNavInfo = {
     {
       title: 'Prenatal Massage',
       href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=F0-Lz-6xakU&hl=en-CA&gei=2aHBZZqZMoGC0PEPnKaVgAE&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgCEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhQIARBFGDkYQxiDARixAxiABBiKBTIVCAIQLhgnGK8BGMcBGIAEGIoFGI4FMgYIAxBFGDwyBggEEEUYPDIGCAUQRRg8MgYIBhAFGEAyBggHEEUYPNIBCDI1NzhqMGo3qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8',
-      cost: 'CAD $110.00',
+      cost: '$110.00 CAD',
       time: '1 hr',
+      img: '',
+      alt: '',
+      description:
+        'A prenatal massage is a specialized massage tailored for expectant mothers. It&apos;s designed to address the unique needs and discomforts that can arise during pregnancy. The massage techniques are modified to ensure the safety and comfort of the mother and the baby. Prenatal massages can help alleviate back pain, reduce stress and anxiety, improve sleep quality, and promote relaxation. It&apos;s crucial to seek out certified massage therapists experienced in prenatal care to ensure a safe and beneficial experience for both the mother and the baby.',
+    },
+    {
+      title: 'Prenatal (PRE NATAL 90)',
+      href: '/',
+      cost: '$155.00 CAD',
+      time: '1hr 30min',
       img: '',
       alt: '',
       description:
@@ -55,15 +65,7 @@ export const massagesNavInfo = {
       alt: '',
       description: 'Aqui va contenido',
     },
-    {
-      title: 'subservice',
-      href: '/',
-      cost: '$',
-      time: '',
-      img: '',
-      alt: '',
-      description: 'Aqui va contenido',
-    },
+
     {
       title: 'subservice',
       href: '/',

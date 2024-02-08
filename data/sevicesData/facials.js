@@ -1,8 +1,8 @@
-export const FacialsNavInfo = {
-  category: 'Facials',
-  // introTitle: 'About Facials',
-  introDesc: 'We offer the best facial treaments in twon. brwose below',
+export const FacialsData = {
+  category: 'facials',
+  desc: 'We offer the best facial treaments in twon. brwose below',
   img: '/nav-facial-img.jpg',
+  url: '/calgary-facials',
   alt: '',
   categoryServices: [
     {
@@ -90,9 +90,9 @@ export const FacialsNavInfo = {
 
     {
       title: 'REVITALIZING FACIAL',
-      href: '/',
-      cost: '$',
-      time: '',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=UF7Od1AIBPA&hl=en-CA&gei=4RvDZYqUOOS30PEPg8egmAg&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%2Ba%26gs_lcrp%3DEgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYQDIGCAMQRRg5MhIIBBAuGBQYrwEYxwEYhwIYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD2oAgCwAgA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$250.00 CAD',
+      time: '1 hr',
       img: '',
       alt: '',
       description:
@@ -109,13 +109,14 @@ export const FacialsNavInfo = {
         'A back facial is a skincare treatment that focuses on the skin of the back, addressing concerns such as acne, dryness, or congestion. It typically involves deep cleansing, exfoliation, extractions, and hydration using specialized products tailored to the back&apos;s unique needs. Back facials can help improve skin texture, tone, and clarity, promoting a smoother and healthier-looking back.',
     },
     {
-      title: 'subservice',
-      href: '/',
-      cost: '$',
+      title: 'OXYGEN BRIGHTENING FACIAL',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=c774okWh75s&hl=en-CA&gei=4RvDZYqUOOS30PEPg8egmAg&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%2Ba%26gs_lcrp%3DEgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYQDIGCAMQRRg5MhIIBBAuGBQYrwEYxwEYhwIYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD2oAgCwAgA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$135.00 CAD',
       time: '1hr',
       img: '',
       alt: '',
-      description: 'aqui va contenido',
+      description:
+        'The Oxygen Brightening Facial is a rejuvenating skincare treatment that utilizes oxygen infusion to enhance skin brightness and radiance. It involves cleansing, exfoliation, and the application of oxygen-rich serums to promote collagen production and reduce the appearance of dullness and uneven skin tone. This non-invasive procedure leaves the skin feeling refreshed, hydrated, and visibly glowing',
     },
     {
       title: 'subservice',

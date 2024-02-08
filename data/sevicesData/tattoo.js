@@ -1,8 +1,9 @@
-export const tatooRemovalNavInfo = {
+export const tattooRemovalData = {
   category: 'Tattoo Removal',
-  // introTitle: 'About Facials',
-  introDesc: 'We offer the best facial treaments in twon. brwose below',
+  desc: 'We offer the best facial treaments in twon. brwose below',
   img: '/images/Tattoo-Removal.jpg',
+  alt: '',
+  url: '/calgary-tattoo-removal',
   categoryServices: [
     {
       title: 'Microneedling 2',

@@ -9,13 +9,7 @@ import {
 } from '@/components/ui/navigation-menu'
 import BookingSidebarItem from './BookingSidebarItem'
 import { useGlogalContext } from '@/lib/Context'
-import { FacialsNavInfo } from '@/data/sevicesData/facials'
-import { massagesNavInfo } from '@/data/sevicesData/massages'
-import { microneedlingNavInfo } from '@/data/sevicesData/microneedling'
-import { laserHairRemovalNavInfo } from '@/data/sevicesData/laserHair'
-import { cocoonNavInfo } from '@/data/sevicesData/cocoon'
-import { tatooRemovalNavInfo } from '@/data/sevicesData/tatoo'
-import { bodySkin } from '@/data/sevicesData/bodySkin'
+import { servicesData } from '@/data/servicesData'
 
 export function BookingSidebar() {
   const { isBookingSidebarOpen, setIsBookingSidebarOpen } = useGlogalContext()
@@ -37,13 +31,16 @@ export function BookingSidebar() {
 
       <NavigationMenu>
         <NavigationMenuList className='flex flex-wrap gap-4 py-2'>
-          <BookingSidebarItem navCompInfo={FacialsNavInfo} />
-          <BookingSidebarItem navCompInfo={massagesNavInfo} />
+          {servicesData.map((category) => (
+            <BookingSidebarItem category={category} />
+          ))}
+          {/* <BookingSidebarItem navCompInfo={FacialsNavInfo} /> */}
+          {/* <BookingSidebarItem navCompInfo={massagesNavInfo} />
           <BookingSidebarItem navCompInfo={microneedlingNavInfo} />
           <BookingSidebarItem navCompInfo={laserHairRemovalNavInfo} />
           <BookingSidebarItem navCompInfo={cocoonNavInfo} />
           <BookingSidebarItem navCompInfo={tatooRemovalNavInfo} />
-          <BookingSidebarItem navCompInfo={bodySkin} />
+          <BookingSidebarItem navCompInfo={bodySkin} /> */}
         </NavigationMenuList>
       </NavigationMenu>
     </div>

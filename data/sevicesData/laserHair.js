@@ -1,8 +1,8 @@
-export const laserHairRemovalNavInfo = {
+export const laserHairRemovalData = {
   category: 'Laser Hair Removal',
-  // introTitle: 'About Facials',
-  introDesc: 'We offer the best facial treaments in twon. brwose below',
+  desc: 'We offer the best facial treaments in twon. brwose below',
   img: '/images/laser-hair-removal.jpg',
+  url: '/calgary-laser-hair-removal',
   alt: '',
   categoryServices: [
     {
@@ -88,7 +88,7 @@ export const laserHairRemovalNavInfo = {
 
     {
       title: 'Laser Hair Removal (FORE ARMS)',
-      href: '/',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=OMRNXKX9byM&hl=en-CA&gei=4RvDZYqUOOS30PEPg8egmAg&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%2Ba%26gs_lcrp%3DEgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYQDIGCAMQRRg5MhIIBBAuGBQYrwEYxwEYhwIYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD2oAgCwAgA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8',
       cost: '$99.00 CAD',
       time: '30 min',
       img: '',
@@ -117,10 +117,50 @@ export const laserHairRemovalNavInfo = {
         'Laser hair removal is a cosmetic procedure that uses concentrated light to remove unwanted hair. The laser emits a beam of light that is absorbed by the pigment in the hair follicles, preventing future hair growth. This non-invasive treatment is effective for various areas, providing long-term hair reduction with minimal discomfort. Popular areas for laser hair removal include the face, underarms, legs, and bikini line. Multiple sessions are usually required for optimal results, as hair follicles are in different growth phases. Laser hair removal offers a convenient and lasting solution, saving individuals from the routine of frequent shaving or waxing',
     },
     {
-      title: 'subservice',
-      href: '/',
-      cost: '',
-      time: '30 min',
+      title: 'Laser Hair Removal (ABDOMEN STRIP)',
+      href: 'Laser Hair Removal (ABDOMEN STRIP)',
+      cost: '$60.00 CAD',
+      time: '15 min',
+      img: '',
+      alt: '',
+      description:
+        'Laser hair removal is a cosmetic procedure that uses concentrated light to remove unwanted hair. The laser emits a beam of light that is absorbed by the pigment in the hair follicles, preventing future hair growth. This non-invasive treatment is effective for various areas, providing long-term hair reduction with minimal discomfort. Popular areas for laser hair removal include the face, underarms, legs, and bikini line. Multiple sessions are usually required for optimal results, as hair follicles are in different growth phases. Laser hair removal offers a convenient and lasting solution, saving individuals from the routine of frequent shaving or waxing',
+    },
+    {
+      title: 'Laser Hair Removal (UNDER ARMS)',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=Xxeobi29OzU&hl=en-CA&gei=4RvDZYqUOOS30PEPg8egmAg&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%2Ba%26gs_lcrp%3DEgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYQDIGCAMQRRg5MhIIBBAuGBQYrwEYxwEYhwIYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD2oAgCwAgA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$89.00 CAD',
+      time: '20 min',
+      img: '',
+      alt: '',
+      description:
+        'Laser hair removal is a cosmetic procedure that uses concentrated light to remove unwanted hair. The laser emits a beam of light that is absorbed by the pigment in the hair follicles, preventing future hair growth. This non-invasive treatment is effective for various areas, providing long-term hair reduction with minimal discomfort. Popular areas for laser hair removal include the face, underarms, legs, and bikini line. Multiple sessions are usually required for optimal results, as hair follicles are in different growth phases. Laser hair removal offers a convenient and lasting solution, saving individuals from the routine of frequent shaving or waxing',
+    },
+    {
+      title: 'Laser Hair Removal (UPPER ARMS)',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=YpU3Q2-PUQU&hl=en-CA&gei=4RvDZYqUOOS30PEPg8egmAg&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%2Ba%26gs_lcrp%3DEgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYQDIGCAMQRRg5MhIIBBAuGBQYrwEYxwEYhwIYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD2oAgCwAgA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$80.00 CAD',
+      time: '20 min',
+      img: '',
+      alt: '',
+      description:
+        'Laser hair removal is a cosmetic procedure that uses concentrated light to remove unwanted hair. The laser emits a beam of light that is absorbed by the pigment in the hair follicles, preventing future hair growth. This non-invasive treatment is effective for various areas, providing long-term hair reduction with minimal discomfort. Popular areas for laser hair removal include the face, underarms, legs, and bikini line. Multiple sessions are usually required for optimal results, as hair follicles are in different growth phases. Laser hair removal offers a convenient and lasting solution, saving individuals from the routine of frequent shaving or waxing',
+    },
+    {
+      title: 'Laser Hair Removal (UPPER BACK)',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=cHhX6HW5mm0&hl=en-CA&gei=4RvDZYqUOOS30PEPg8egmAg&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%2Ba%26gs_lcrp%3DEgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYQDIGCAMQRRg5MhIIBBAuGBQYrwEYxwEYhwIYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD2oAgCwAgA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$110.00 CAD',
+      time: '20min',
+      img: '',
+      alt: '',
+      description:
+        'Laser hair removal is a cosmetic procedure that uses concentrated light to remove unwanted hair. The laser emits a beam of light that is absorbed by the pigment in the hair follicles, preventing future hair growth. This non-invasive treatment is effective for various areas, providing long-term hair reduction with minimal discomfort. Popular areas for laser hair removal include the face, underarms, legs, and bikini line. Multiple sessions are usually required for optimal results, as hair follicles are in different growth phases. Laser hair removal offers a convenient and lasting solution, saving individuals from the routine of frequent shaving or waxing',
+    },
+    {
+      title: 'Laser Hair Removal (FULL LEG)',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=cZp7CYbDyLs&hl=en-CA&gei=4RvDZYqUOOS30PEPg8egmAg&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%2Ba%26gs_lcrp%3DEgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYQDIGCAMQRRg5MhIIBBAuGBQYrwEYxwEYhwIYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD2oAgCwAgA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$250.00 CAD',
+      time: '1hr',
       img: '',
       alt: '',
       description:
@@ -129,22 +169,29 @@ export const laserHairRemovalNavInfo = {
     {
       title: 'subservice',
       href: '/',
-      cost: '',
-      time: '30 min',
+      cost: '$',
+      time: '',
       img: '',
       alt: '',
-      description:
-        'Laser hair removal is a cosmetic procedure that uses concentrated light to remove unwanted hair. The laser emits a beam of light that is absorbed by the pigment in the hair follicles, preventing future hair growth. This non-invasive treatment is effective for various areas, providing long-term hair reduction with minimal discomfort. Popular areas for laser hair removal include the face, underarms, legs, and bikini line. Multiple sessions are usually required for optimal results, as hair follicles are in different growth phases. Laser hair removal offers a convenient and lasting solution, saving individuals from the routine of frequent shaving or waxing',
+      description: 'Aqui va contenido',
     },
     {
       title: 'subservice',
       href: '/',
-      cost: '',
-      time: '30 min',
+      cost: '$',
+      time: '',
       img: '',
       alt: '',
-      description:
-        'Laser hair removal is a cosmetic procedure that uses concentrated light to remove unwanted hair. The laser emits a beam of light that is absorbed by the pigment in the hair follicles, preventing future hair growth. This non-invasive treatment is effective for various areas, providing long-term hair reduction with minimal discomfort. Popular areas for laser hair removal include the face, underarms, legs, and bikini line. Multiple sessions are usually required for optimal results, as hair follicles are in different growth phases. Laser hair removal offers a convenient and lasting solution, saving individuals from the routine of frequent shaving or waxing',
+      description: 'Aqui va contenido',
+    },
+    {
+      title: 'subservice',
+      href: '/',
+      cost: '$',
+      time: '',
+      img: '',
+      alt: '',
+      description: 'Aqui va contenido',
     },
   ],
 }

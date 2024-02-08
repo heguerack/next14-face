@@ -1,8 +1,9 @@
-export const bodySkin = {
+export const bodySkinData = {
   category: 'Body & Skin Care',
   introTitle: 'About Facials',
-  introDesc: 'We offer the best facial treaments in twon. brwose below',
+  desc: 'We offer the best facial treaments in twon. brwose below',
   img: '/nav-micronedling-img.jpg',
+  url: '/calgary-body-and-skin-care',
   alt: '',
   categoryServices: [
     {
