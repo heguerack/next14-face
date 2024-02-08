@@ -5,7 +5,7 @@ import { useInView } from 'react-cool-inview'
 export default function HomeReviews() {
   const { observe, inView } = useInView({
     unobserveOnEnter: true,
-    rootMargin: '1000px',
+    rootMargin: '500px',
   })
   return (
     <div className='placeholder google-iframe-wrapper' ref={observe}>

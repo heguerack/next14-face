@@ -41,9 +41,9 @@ export default function BookingSidebarItem({ category }) {
               </Link>
             </NavigationMenuLink>
           </li>
-          {category.categoryServices.map((service) => (
+          {category.categoryServices.map((service, i) => (
             <ListItem
-              key={service.title}
+              key={i}
               title={service.title}
               href={service.href}
               cost={service.cost}

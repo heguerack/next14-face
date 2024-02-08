@@ -31,8 +31,8 @@ export function BookingSidebar() {
 
       <NavigationMenu>
         <NavigationMenuList className='flex flex-wrap gap-4 py-2'>
-          {servicesData.map((category) => (
-            <BookingSidebarItem category={category} />
+          {servicesData.map((category, i) => (
+            <BookingSidebarItem key={i} category={category} />
           ))}
           {/* <BookingSidebarItem navCompInfo={FacialsNavInfo} /> */}
           {/* <BookingSidebarItem navCompInfo={massagesNavInfo} />
