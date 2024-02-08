@@ -21,7 +21,7 @@ export default function HomeTabs() {
           </Button>
         ))}
       </div>
-      <div className='max-h-[50vh] overflow-y-scroll'>
+      <div className='max-h-[55vh] overflow-y-scroll'>
         <div className='overflow-y-scroll'>
           <div className='flex h-full w-full select-none flex-col justify-end rounded-md  p-2 no-underline outline-none focus:shadow-md'>
             <div className='bg-slate-500 text-white flex items-center gap-2'>
