@@ -9,7 +9,7 @@ export default function HomeTabs() {
   const [index, setIndex] = useState(0)
   console.log(index)
   return (
-    <div className={`w-full left-0 max-h-screen overflow-y-scroll `}>
+    <div className={`w-full left-0 max-h-[80vh] overflow-y-scroll `}>
       <div className='bg-red-200 flex flex-wrap justify-center gap-2 py-4'>
         {servicesData.map((item, i) => (
           <Button
