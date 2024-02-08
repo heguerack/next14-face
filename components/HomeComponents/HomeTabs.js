@@ -9,8 +9,8 @@ export default function HomeTabs() {
   const [index, setIndex] = useState(0)
   console.log(index)
   return (
-    <div className={`w-full left-0`}>
-      <div className='bg-red-200 flex flex-wrap justify-center gap-2 py-4'>
+    <div className={`w-fullleft-0 `}>
+      <div className=' bg-red-200 flex flex-wrap justify-center gap-2 py-4'>
         {servicesData.map((item, i) => (
           <Button
             onClick={() => setIndex(i)}
@@ -21,36 +21,42 @@ export default function HomeTabs() {
           </Button>
         ))}
       </div>
-      <div className='h-[60vh] overflow-y-scroll flex w-full select-none flex-col justify-end rounded-md  p-2 no-underline outline-none focus:shadow-md'>
-        <div className='bg-slate-500 text-white flex items-center gap-2'>
-          <div className='relative w-[10rem] h-[5rem]  '>
-            <Image
-              src={servicesData[index].img}
-              alt={servicesData[index].alt}
-              className='object-cover '
-              fill
-            />
+      <div className='max-h-[60vh] overflow-y-scroll'>
+        <div className='overflow-y-scroll'>
+          <div className='flex h-full w-full select-none flex-col justify-end rounded-md  p-2 no-underline outline-none focus:shadow-md'>
+            <div className='bg-slate-500 text-white flex items-center gap-2'>
+              <div className='relative w-[10rem] h-[5rem]  '>
+                <Image
+                  src={servicesData[index].img}
+                  alt={servicesData[index].alt}
+                  className='object-cover '
+                  fill
+                />
+              </div>
+              <p className='text-lg leading-tight '>
+                {servicesData[index].desc}
+              </p>
+            </div>
+            <div>
+              <ul>
+                {servicesData[index].categoryServices.map(
+                  (service, serviceIndex) => {
+                    // console.log(service)
+                    return (
+                      <ServiceItem
+                        key={serviceIndex}
+                        title={service.title}
+                        href={service.href}
+                        cost={service.cost}
+                        time={service.time}>
+                        {service.description}
+                      </ServiceItem>
+                    )
+                  }
+                )}
+              </ul>
+            </div>
           </div>
-          <p className='text-lg leading-tight '>{servicesData[index].desc}</p>
-        </div>
-        <div>
-          <ul>
-            {servicesData[index].categoryServices.map(
-              (service, serviceIndex) => {
-                // console.log(service)
-                return (
-                  <ServiceItem
-                    key={serviceIndex}
-                    title={service.title}
-                    href={service.href}
-                    cost={service.cost}
-                    time={service.time}>
-                    {service.description}
-                  </ServiceItem>
-                )
-              }
-            )}
-          </ul>
         </div>
       </div>
     </div>
