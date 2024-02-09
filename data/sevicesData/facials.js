@@ -119,13 +119,34 @@ export const FacialsData = {
         'The Oxygen Brightening Facial is a rejuvenating skincare treatment that utilizes oxygen infusion to enhance skin brightness and radiance. It involves cleansing, exfoliation, and the application of oxygen-rich serums to promote collagen production and reduce the appearance of dullness and uneven skin tone. This non-invasive procedure leaves the skin feeling refreshed, hydrated, and visibly glowing',
     },
     {
-      title: 'subservice',
-      href: '/',
-      cost: '$',
-      time: '',
+      title: 'GOLD FACIAL',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=f9ih5Do50nU&hl=en-CA&gei=VKHFZfOkBuGt0PEPmMGM6AQ&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyDwgCEEUYORiDARixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEINDE3MGowajSoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$159.00 CAD',
+      time: '1hr 15min',
       img: '',
       alt: '',
-      description: 'aqui va contenido',
+      description:
+        'This opulent treatment utilises precious 24K gold leaf - complemented by potent, botanically-based cosmeceuticals. For thousands of years, gold has been used for healing in Ayurvedic medicine, one of the oldest medical systems in the world. At a skin level, gold stimulates cellular growth to regenerate healthy, firm skin cells and provide a visible tightening. Gold also benefits body and mind through powerful calming, antioxidant and anti-inflammatory properties. This decadent facial treatment also includes organic based cleansing and one pass microdermabrasion exfoliation, hand-blended masks, serums and organic mists. Leave feeling deeply relaxed and with a radiant, golden glow.',
+    },
+    {
+      title: 'OXYGEN REJUVENATING FACIAL',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=gxhp54bl-0Y&hl=en-CA&gei=VKHFZfOkBuGt0PEPmMGM6AQ&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyDwgCEEUYORiDARixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEINDE3MGowajSoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$135.00 CAD',
+      time: '1hr',
+      img: '',
+      alt: '',
+      description:
+        'An oxygen rejuvenating facial is a skincare treatment designed to replenish and revitalize the skin using oxygen-infused products. It involves the application of oxygen-rich serums or masks to nourish and hydrate the skin, promoting a radiant complexion. This facial can help improve skin elasticity, reduce fine lines, and enhance overall skin health through oxygenation.',
+    },
+    {
+      title: 'HIFU FACIAL',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=h7aoM3G6Lkg&hl=en-CA&gei=VKHFZfOkBuGt0PEPmMGM6AQ&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyDwgCEEUYORiDARixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEINDE3MGowajSoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$125.00 CAD',
+      time: '1hr',
+      img: '',
+      alt: '',
+      description:
+        'This facial consist of basic cleansing and polishing followed by Hifu around jaw line, eyes and neck.',
     },
     {
       title: 'subservice',

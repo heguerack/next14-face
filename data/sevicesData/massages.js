@@ -6,10 +6,30 @@ export const massagesData = {
   url: '/calgary-massages',
   categoryServices: [
     {
-      title: 'THERAPEUTIC MASSAGE',
+      title: 'Relaxation 60',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=nlY9i00GsTM&hl=en-CA&gei=VKHFZfOkBuGt0PEPmMGM6AQ&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyDwgCEEUYORiDARixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEINDE3MGowajSoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$100.00 CAD',
+      time: '1hr',
+      img: '',
+      alt: '',
+      description:
+        'At the Face and Body Wellness Centre, our Relaxation Massage is a luxurious experience designed to melt away stress and tension. Through gentle, soothing strokes and techniques tailored to your preferences, this massage aims to promote relaxation, ease muscle tension, and induce a state of tranquility. Let our skilled therapists guide you through a rejuvenating journey, leaving you feeling refreshed, revitalized, and deeply relaxed.',
+    },
+    {
+      title: 'THERAPEUTIC MASSAGE (90 min)',
       href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=EW8E-m5_mO8&hl=en-CA&gei=2aHBZZqZMoGC0PEPnKaVgAE&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgCEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhQIARBFGDkYQxiDARixAxiABBiKBTIVCAIQLhgnGK8BGMcBGIAEGIoFGI4FMgYIAxBFGDwyBggEEEUYPDIGCAUQRRg8MgYIBhAFGEAyBggHEEUYPNIBCDI1NzhqMGo3qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8',
       cost: ' $145.00 CAD',
       time: ' 1 hr 30 min',
+      img: '',
+      alt: '',
+      description:
+        'Therapeutic massage is a hands-on treatment that manipulates the soft tissues of the body to promote relaxation, relieve muscle tension, and alleviate pain. It incorporates various techniques such as kneading, stroking, and applying pressure to specific areas to address individual needs and enhance overall well-being. Therapeutic massage can help improve circulation, reduce stress, and enhance flexibility.',
+    },
+    {
+      title: 'THERAPEUTIC MASSAGE (75min)',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=lBk-tN_J-bI&hl=en-CA&gei=VKHFZfOkBuGt0PEPmMGM6AQ&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyDwgCEEUYORiDARixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEINDE3MGowajSoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: ' $120.00 CAD',
+      time: ' 1 hr 15 min',
       img: '',
       alt: '',
       description:
@@ -57,6 +77,16 @@ export const massagesData = {
         'Wood therapy, also known as Maderoterapia, is a massage technique that utilizes wooden tools to sculpt and contour the body. The various wooden instruments, such as rollers and sculpting implements, are used to manipulate and massage targeted areas, promoting lymphatic drainage, reducing cellulite, and toning muscles. This natural and non-invasive therapy aims to improve circulation and enhance the overall appearance of the skin, providing a unique and effective approach to body sculpting and wellness.',
     },
     {
+      title: 'Manual Lymphatic',
+      href: 'https://www.google.com/maps/reserve/v/default/service?m=kkprGa8bGL0&s=mkt8xMqZU2Q&hl=en-CA&gei=VKHFZfOkBuGt0PEPmMGM6AQ&source=pa&sourceurl=https%3A%2F%2Fwww.google.com%2Fsearch%3Fgs_ssp%3DeJwFwUsKgCAQAFDaBh0hcNM6xw9mR-gW4zgJUQYpZLfvvX6Y0wxw1SMV7Zvs1kk2qx04a3cCJAiLX2XzcTEOpSJlNZugtnFHYoE5inDHT7x8nplLEcS5PvwDEowaBw%26q%3Dface%2Band%2Bbody%2Bwellness%2Bcentre%26rlz%3D1C1VIQF_enCA974CA974%26oq%3Dface%26gs_lcrp%3DEgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg8MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyDwgCEEUYORiDARixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQBRhA0gEINDE3MGowajSoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8',
+      cost: '$125.00 CAD',
+      time: '1hr',
+      img: '',
+      alt: '',
+      description:
+        'The lymphatic system is our body&apos;s defence in fighting infections, detoxifying the body and transporting metabolic waste, excess fluid, toxins and bacteria out of the body. We each carry this decongestion through different parts of the body and in different volumes.Manual Lymphatic Drainage (MLD) is a very specific, relaxing massage technique using mild mechanical stretching of the connective tissue. This massage motion facilitates decongestion of lymph ducts encouraging the natural circulation of the lymph through the body. Manual Lymphatic Drainage also stimulates the lymphatic system to absorb and transport lymph more effectively to functioning lymph nodes where it is cleaned of toxins and other debris as well as carrying vital substances to areas where it is needed. This helps to ensure our body&apos;s ability to rejuvenate and establish a resistance to all types of stress placed on it, thus hastening healing times.',
+    },
+    {
       title: 'subservice',
       href: '/',
       cost: '$',
@@ -65,7 +95,24 @@ export const massagesData = {
       alt: '',
       description: 'Aqui va contenido',
     },
-
+    {
+      title: 'subservice',
+      href: '/',
+      cost: '$',
+      time: '',
+      img: '',
+      alt: '',
+      description: 'Aqui va contenido',
+    },
+    {
+      title: 'subservice',
+      href: '/',
+      cost: '$',
+      time: '',
+      img: '',
+      alt: '',
+      description: 'Aqui va contenido',
+    },
     {
       title: 'subservice',
       href: '/',
